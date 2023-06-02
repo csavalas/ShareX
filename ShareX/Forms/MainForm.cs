@@ -2036,6 +2036,7 @@ namespace ShareX
 
         private void cmsTray_Opened(object sender, EventArgs e)
         {
+            RemoveAllItems();
             if (Program.Settings.TrayAutoExpandCaptureMenu)
             {
                 tsmiTrayCapture.Select();
