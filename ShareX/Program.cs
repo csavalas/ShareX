@@ -209,13 +209,7 @@ namespace ShareX
         {
             get
             {
-                if (SystemOptions.DisableLogging)
-                {
-                    return null;
-                }
-
-                string fileName = string.Format("ShareX-Log-{0:yyyy-MM}.txt", DateTime.Now);
-                return Path.Combine(LogsFolder, fileName);
+                return null;
             }
         }
 
